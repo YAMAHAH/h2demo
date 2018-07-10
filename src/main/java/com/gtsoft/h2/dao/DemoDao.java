@@ -1,6 +1,6 @@
-package com.gtsoft.hsqldb.dao;
+package com.gtsoft.h2.dao;
 
-import com.gtsoft.hsqldb.model.TestModel;
+import com.gtsoft.h2.model.TestModel;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,4 +1,4 @@
-package com.gtsoft.hsqldb;
+package com.gtsoft.h2;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

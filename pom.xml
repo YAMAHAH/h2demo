@@ -39,8 +39,8 @@
         </dependency>
 
         <!--<dependency>-->
-            <!--<groupId>org.hsqldb</groupId>-->
-            <!--<artifactId>hsqldb</artifactId>-->
+            <!--<groupId>org.h2</groupId>-->
+            <!--<artifactId>h2</artifactId>-->
             <!--<scope>runtime</scope>-->
         <!--</dependency>-->
         <!-- https://mvnrepository.com/artifact/com.h2database/h2 -->

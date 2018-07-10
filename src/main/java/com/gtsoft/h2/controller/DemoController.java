@@ -1,7 +1,7 @@
-package com.gtsoft.hsqldb.controller;
+package com.gtsoft.h2.controller;
 
-import com.gtsoft.hsqldb.dao.DemoDao;
-import com.gtsoft.hsqldb.model.TestModel;
+import com.gtsoft.h2.dao.DemoDao;
+import com.gtsoft.h2.model.TestModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

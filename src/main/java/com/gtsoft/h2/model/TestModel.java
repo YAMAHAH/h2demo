@@ -1,4 +1,4 @@
-package com.gtsoft.hsqldb.model;
+package com.gtsoft.h2.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
