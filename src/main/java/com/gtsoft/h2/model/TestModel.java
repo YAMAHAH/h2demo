@@ -1,8 +1,8 @@
 package com.gtsoft.h2.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 public class TestModel {
@@ -11,6 +11,11 @@ public class TestModel {
     private Long id;
     private String name;
     private int age;
+
+    @OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    @JoinColumn(name = "person_id")
+    @MapKey(name = "id")
+    private List<Address> addresses = new ArrayList<>();
 
     public Long getId() {
         return id;
@@ -34,6 +39,14 @@ public class TestModel {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public List<Address> getAddresses() {
+        return addresses;
+    }
+
+    public void setAddresses(List<Address> addresses) {
+        this.addresses = addresses;
     }
 }
 
