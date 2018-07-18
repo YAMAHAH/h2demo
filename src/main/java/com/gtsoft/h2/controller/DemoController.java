@@ -66,6 +66,7 @@ public class DemoController {
         return demoDao.saveAll(testModels);
     }
 
+    @CrossOrigin(origins = "*")
     @RequestMapping("/find")
     public List<TestModel> find() {
         return (List<TestModel>) demoDao.findAll();
